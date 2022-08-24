@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Antony",
+      "lastname": "Thomas",
+      "email": "antonythomas144@gmail.com",
+      "mobile": "9400246639",
+      "salary": "50000"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastname": "son",
+      "email": "son@gmail.com",
+      "mobile": "1234567890",
+      "salary": "2300000"
+    },
+    {
+      "id": 3,
+      "firstName": "ram",
+      "lastname": "ram",
+      "email": "ram@123",
+      "mobile": "9080706090",
+      "salary": "500000"
+    },
+    {
+      "id": 4,
+      "firstName": "adithyan",
+      "lastname": "t",
+      "email": "adi@123",
+      "mobile": "78906543",
+      "salary": "70000"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
