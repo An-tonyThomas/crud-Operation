@@ -1,15 +1,16 @@
 <!-- navbar -->
-<nav class="navbar navbar-light bg-primary">
+<nav class="navbar navbar-light bg-dark">
   <div class="container-fluid">
-    <h1 style="color: white;">Angular Crud</h1>
+    <h1 style="color: rgb(255, 255, 255);"><b>C R U D</b> <i> App</i> </h1>
     <div class="d-flex">
       <button (click)="clickAddEmployee()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-success">Add
         Employee</button>
+        <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
     </div>
   </div>
 </nav>
 <!-- table -->
-<table class="table mt-3">
+<table class="table table-responsive table-hover ">
   <thead>
     <tr>
       <th scope="col">Employee Id</th>
@@ -30,7 +31,7 @@
       <td>{{row.mobile}}</td>
       <td>{{row.salary}}</td>
       <td>
-        <button (click)="onEdit(row)" class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+        <button (click)="onEdit(row)" class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
         <button (click)="deleteEmployee(row)" class="btn btn-danger mx-3">Delete</button>
       </td>
 
